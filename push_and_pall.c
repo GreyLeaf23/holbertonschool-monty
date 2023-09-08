@@ -3,7 +3,7 @@
 /**
  * push - pushes an element to the stack.
  * @stack: double pointer to the head of the stack.
- * @line_number: line number of the command in the Monty file.
+ * @line_number: number count in the command line of Monty file.
  */
 
 void push(stack_t **stack, unsigned int line_number)
@@ -26,7 +26,7 @@ if (new_node == NULL)
 
 new_node->n = atoi(global_variable->argument);
 new_node->prev = NULL;
-new_node->next = *stack
+new_node->next = *stack;
 
 if (*stack != NULL)
     (*stack)->prev = new_node;
@@ -36,9 +36,9 @@ if (*stack != NULL)
 }
 
 /**
- * pint - prints the value at the top of the stack.
+ * pall - prints all the values on the stack.
  * @stack: double pointer to the head of the stack.
- * @line_number: line number of the command in the Monty file.
+ * @line_number: number count in the command line of Monty file.
  */
 
 void pall(stack_t **stack, unsigned int line_number)
@@ -47,7 +47,7 @@ void pall(stack_t **stack, unsigned int line_number)
 
     (void)line_number;
 
-    current = *stack
+    current = *stack;
     while (current != NULL)
     {
         printf("%d\n", current->n);
