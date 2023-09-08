@@ -1,4 +1,6 @@
-Multi-Project Group:
+Multi-Project Repository:
 
-Christian Rosario
-Neischaly Ruidiaz
+C - Stacks, Queues - LIFO, FIFO
+C - Binary Trees
+C - Sorting Algorithms & Big O
+C - Search Algorithms
