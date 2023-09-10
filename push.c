@@ -4,6 +4,7 @@
  * push - pushes an element to the stack.
  * @stack: double pointer to the head of the stack.
  * @line_number: number count in the command line of Monty file.
+ * Return: void
  */
 
 void push(stack_t **stack, unsigned int line_number)
