@@ -17,7 +17,7 @@ stack_t *new_node;
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
 }
-new_node = malloc (sizeof(stack_t));
+new_node = malloc(sizeof(stack_t));
 
 	if (new_node == NULL) 
 { 
