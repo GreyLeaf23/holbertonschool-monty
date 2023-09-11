@@ -24,8 +24,8 @@ if (new_node == NULL)
 } 
 new_node->n = atoi(global_variable->argument); 
 new_node->prev = NULL; 
-new_node->next = **stack; 
-if (**stack != NULL) 
-    (**stack)->prev = new_node; 
-**stack = new_node; 
+new_node->next = *stack; 
+if (*stack != NULL) 
+    (*stack)->prev = new_node; 
+*stack = new_node; 
 } 
