@@ -116,8 +116,4 @@ void execute_opcode(stack_t **stack, char *opcode, unsigned int line_number)
 	/*If the opcode is not found print an error message and exit*/
 	fprintf(stderr, "L%d: unknown instruction %s\n", line_number, opcode);
 	exit(EXIT_FAILURE);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> efa737ec2152f6c52de165bf4c75c1034ac3c88e
