@@ -20,4 +20,8 @@ void pop(stack_t **stack, unsigned int line_number)
         (*stack)->prev = NULL;/*Prev pointer as the start.*/
 
     free(temp);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> efa737ec2152f6c52de165bf4c75c1034ac3c88e

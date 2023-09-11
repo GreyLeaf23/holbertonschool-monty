@@ -1,4 +1,3 @@
-Multi-Project Group:
+Group Project:
 
-Christian Rosario
-Neischaly Ruidiaz
+C - Stacks, Queues - LIFO, FIFO

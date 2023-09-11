@@ -14,4 +14,8 @@ void pint(stack_t **stack, unsigned int line_number)
     }
 
     printf("%d\n", (*stack)->n); /*Print the value at the top*/
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> efa737ec2152f6c52de165bf4c75c1034ac3c88e

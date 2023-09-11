@@ -14,4 +14,8 @@ void add(stack_t **stack, unsigned int line_number)
     }
     (*stack)->next->n += (*stack)->n;
     pop(stack, line_number);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> efa737ec2152f6c52de165bf4c75c1034ac3c88e
