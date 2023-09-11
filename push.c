@@ -8,15 +8,15 @@
  * Return: void
  */
 
-void push(stack_t **stack, unsigned int line_number) 
-{ 
-stack_t *new_node; 
+void push(stack_t **stack, unsigned int line_number)
+{
+stack_t *new_node;
 
-	if (stack == NULL) 
-{ 
-		fprintf(stderr, "L%d: usage: push integer\n", line_number); 
-		exit(EXIT_FAILURE); 
-} 
+	if (stack == NULL)
+{
+		fprintf(stderr, "L%d: usage: push integer\n", line_number);
+		exit(EXIT_FAILURE);
+}
 new_node = malloc (sizeof(stack_t));
 
 	if (new_node == NULL) 
