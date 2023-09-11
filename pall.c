@@ -8,7 +8,6 @@
 
 void pall(stack_t **stack, unsigned int line_number)
 {
-<<<<<<< HEAD
 stack_t *current;
 
 (void)line_number;
@@ -30,5 +29,4 @@ while (current != NULL)
         printf("%d\n", current->n);
         current = current->next;
     }
->>>>>>> efa737ec2152f6c52de165bf4c75c1034ac3c88e
 }
