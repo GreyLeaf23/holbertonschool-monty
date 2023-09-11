@@ -25,7 +25,7 @@ new_node = malloc(sizeof(stack_t));
 		exit(EXIT_FAILURE);
 	}
 
-new_node->n = atoi(global_variable.argument);
+new_node->n = atoi(global_variable->argument);
 new_node->prev = NULL;
 new_node->next = *stack;
 
