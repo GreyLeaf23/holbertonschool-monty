@@ -7,17 +7,17 @@
 
 void pop(stack_t **stack, unsigned int line_number)
 {
-    if (stack == NULL || (*stack) == NULL)/*Error Check*/
-    {
-        fprintf(stderr, "L%d: can't pop an empty stack\n", line_number);
-        exit(EXIT_FAILURE);
-    }
+if (stack == NULL || (*stack) == NULL)/*Error Check*/
+{
+	fprintf(stderr, "L%d: can't pop an empty stack\n", line_number);
+	exit(EXIT_FAILURE);
+}
 
-    stack_t *temp = *stack; /*Store the top node in the temp variable*/
-    *stack = (*stack)->next;/*Move head of the stack to the next node*/
+stack_t *temp = *stack; /*Store the top node in the temp variable*/
+*stack = (*stack)->next;/*Move head of the stack to the next node*/
 
-    if (*stack != NULL)
-        (*stack)->prev = NULL;/*Prev pointer as the start.*/
+if (*stack != NULL)
+	(*stack)->prev = NULL;/*Prev pointer as the start.*/
 
-    free(temp);
+free(temp);
 }
