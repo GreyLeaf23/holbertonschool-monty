@@ -2,13 +2,6 @@
 
 /*Function prototype for execute_opcode*/
 
-/*
- * main - entry point
- * free_stack - free memory allocated to a stack after use
- * execute_opcode - execute a specific operation based on a given opcode
- * Return: void
- */
-
 void execute_opcode(stack_t **stack, char *opcode, unsigned int line_number);
 
 global_t *global_variable = NULL;
