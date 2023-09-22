@@ -9,7 +9,11 @@
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
- *
+ * 
+ * main - entry point
+ * free_stack - free memory allocated to a stack after use
+ * execute_opcode - execute a specific operation based on a given opcode
+ * Return: void
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO
  */

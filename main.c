@@ -1,9 +1,10 @@
 #include "monty.h"
 
-global_t *global_variable = NULL;/*Initialize the global variable pointer to NULL*/
-
 /*Function prototype for execute_opcode*/
+
 void execute_opcode(stack_t **stack, char *opcode, unsigned int line_number);
+
+global_t *global_variable = NULL;
 
 void free_stack(stack_t *stack)
 {
@@ -116,4 +117,5 @@ void execute_opcode(stack_t **stack, char *opcode, unsigned int line_number)
 	/*If the opcode is not found print an error message and exit*/
 	fprintf(stderr, "L%d: unknown instruction %s\n", line_number, opcode);
 	exit(EXIT_FAILURE);
+
 }
